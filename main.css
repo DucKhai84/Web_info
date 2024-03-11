@@ -110,7 +110,7 @@
     position: relative;
     padding: 60px 0;
     height: 75vh;
-    background:  url("/img/hero-bg.42216018bd702af38fa1.jpg") 0 0;
+    background:  url("./img/hero-bg.42216018bd702af38fa1.jpg") 0 0;
     background-size: cover;
     display: flex;
     align-items: center;
