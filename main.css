@@ -370,7 +370,9 @@
 }
 /* mobile */
 @media only screen and (max-width: 46.1875em){
-    
+        .col__rev-col{
+            flex-direction: column;
+        }
         .mg__bot--non{
             margin-bottom: 0;
         }
@@ -516,6 +518,7 @@
 } 
 /* mobile and ipad */
 @media only screen and (max-width: 64em){
+    
     .mg__bot--non{
         margin-bottom: 0;
     }
