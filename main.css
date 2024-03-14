@@ -375,9 +375,7 @@
         .mg__bot--non{
             margin-bottom: 0;
         }
-        .pg--non{
-            padding: 0;
-        }
+        
         .wid--100{
             width: 100%;
         }
@@ -385,7 +383,7 @@
         .dp__block{
             display: block ;
         }
-
+        
         /* ******************************* */
         #header{
             overflow: hidden;
@@ -480,9 +478,7 @@
         padding-left: 12px;
         width: 50%;
     }
-    .pg--12{
-        padding: 0 12px !important;
-    }
+   
     
      /* ******************************* */
     .container{
