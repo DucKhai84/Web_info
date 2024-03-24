@@ -29,7 +29,7 @@
 }
 .contact-number{
     color: var(--white-color);
-    margin-left: 12px;
+    margin-left: 18px;
 }
 .contact-number__phone{
     font-size: 1.4rem;
@@ -77,7 +77,7 @@
     padding: 0 3px;
     color: var(--header-color);
     text-decoration: none; 
-    font-weight: 550;
+    font-weight: 500;
     position: relative;
 }
 .navbar__lists-item-link::before{
@@ -110,7 +110,7 @@
     position: relative;
     padding: 60px 0;
     height: 75vh;
-    background:  url("./img/hero-bg.42216018bd702af38fa1.jpg") 0 0;
+    background:  url("/assets/img/hero-bg.42216018bd702af38fa1.jpg") 0 0;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -151,13 +151,17 @@
 .section__title{
     padding-bottom: 30px;
 }
+.section__title .h3{
+    font-weight: 600;
+}
 .title__name{
+    font-weight: 600;
     margin: 0;
 }
 .title__find{
     color: var(--text-color);
     margin: 15px 0 0;
-    font-size: 3.6rem;
+    font-size: 3.2rem;
 }
 .title__find-color{
     color: var(--primary-color);
@@ -172,6 +176,7 @@
     margin: 0 0 15px;
     font-size: 2rem;
     text-align: center;
+    font-weight: 600;
 }
 .decs{
     margin: 0;
@@ -209,6 +214,7 @@
     color: var(--white-color);
 }
 .name-project-color{
+    font-weight: 600 ;
     color: var(--primary-color);
 }
 .name-project{
@@ -305,7 +311,7 @@
 .box-contact__icon{
     padding: 8px;
     border: 2px dotted #b3d1fa;
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: var(--primary-color);
     border-radius: 50%;
 }
@@ -329,7 +335,6 @@
 }
 #footer .container{
     padding: 24px 12px;
-    margin: 0 86px;
 }
 #footer span{
     font-weight: bolder;
@@ -340,22 +345,22 @@
 }
 #footer .socials{
     width: 500px;
+    height: 67px;
 }
 .social-link{
     --height: 36px;
     height: var(--height);
-    width: var(--width);
+    width: var(--height);
     text-decoration: none;
     border-radius: 4px;
     color: #fff;
     display: inline-block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1;
     margin-right: 4px;
     padding: 8px 0;
     text-align: center;
     transition: .3s;
-
 }
 #footer .credit{
     display: inline-block;
@@ -367,35 +372,18 @@
     font-weight: 300;
     flex: 1;
 }
+.social-link__icon{
+    position: relative;
+    top: -1px;
+    right: 7px;
+}
 /* mobile */
 @media only screen and (max-width: 46.1875em){
-        .col__rev-col{
-            flex-direction: column;
-        }
-        .mg__bot--non{
-            margin-bottom: 0;
-        }
-        
-        .wid--100{
-            width: 100%;
-        }
-        
-        .dp__block{
-            display: block ;
-        }
-        
-        /* ******************************* */
         #header{
             overflow: hidden;
         }
         .social{
             display: none;
-        }
-        .container{
-            margin: 0;
-        }
-        #topbar .container{
-            justify-content: center !important;
         }
         #hero h1{
             font-weight: 600;
@@ -458,67 +446,26 @@
         .credit{
             height: 67px;
         }
+        .social-link{
+            padding: 8px 0 !important;
+        }
+        .social-link__icon{
+            position: relative;
+            top: 3px;
+            left: 0 ;
+        }
 }
-/* ipad */
+/* tablet*/
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
-    .grid__row--non{
-        margin: 0;
-    }
-    .wid--100--ipad{
-        width: 100%;
-    }
-    .pg--12{
-        padding: 0 12px;
-    }
-    .wid--100--title{
-        width: 100%;
-    }
-    .grid__column-6{
-        padding-right: 12px;
-        padding-left: 12px;
-        width: 50%;
-    }
-   
-    
-     /* ******************************* */
-    .container{
-        padding: 0 12px;
-        margin: 0 24px;
-    }
-    .about-res__item-child{
-       height: 100%;
-    }
     .box{
         height: 100%;
-    }
-    .skill-list-res{
-        flex-direction: column;
-    }
-    .skill-list-item-res{
-        width: 100%;
     }
     .process-res{
         height: 60px;
     }
-    .education-res{
-        width: 100%;
-    }
-    .contact--width-res{
-        flex-direction: column;
-    }
-    .contact-item--width-res{
-        width: 100%;
-    }
 } 
-/* mobile and ipad */
+/* mobile and tablet */
 @media only screen and (max-width: 64em){
-   
-    .mg__bot--non{
-        margin-bottom: 0;
-    }
-    .pg--non{
-        padding: 0;
-    }
     .dp__block{
         display: block ;
     }

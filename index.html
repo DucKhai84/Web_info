@@ -5,43 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DucKhai - Home page</title>
     <link rel="icon" href="./img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./base.css">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./font/fontawesome-free-6.5.1-web/css/all.css">
-    <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-5.3.3-dist/css/bootstrap.css">
 </head>
 <body>
     <div id="root">
         <div class="app">
             <section id="topbar">
-                <div class="container dp__flex alg__item jc__s-between">
-                    <div class="contact dp__flex">
+                <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+                    <div class="contact d-flex">
                         <div class="contact-email">
                             <i class="contact-email__icon ti-email"></i>
-                            <a href="" class="contact-email__gmail">hokhai84@gmail.com</a>
+                            <a href="mailto: hokhai84@gmail.com" class="contact-email__gmail">hokhai84@gmail.com</a>
                         </div>
                         <div class="contact-number">
                             <i class="contact-email__icon ti-mobile"></i>
-                            <span class="contact-number__phone">+84 765616646</span>
+                            <spain class="contact-number__phone">+84 765616646</spain>
                         </div>
                     </div>
                     <div class="social">
                         <a href="https://www.instagram.com/duckhaiii_84" class="social-icon">
                             <i class="social-icon__hover ti-instagram"></i>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100010822745965" class="social-icon mg-left">
+                        <a href="https://www.facebook.com/profile.php?id=1000 10822745965" class="social-icon ms-4">
                             <i class="social-icon__hover ti-facebook"></i>
                         </a>
-                        <a href="" class="social-icon mg-left">
+                        <a href="" class="social-icon ms-4">
                             <i class="social-icon__hover ti-stack-overflow"></i>
                         </a>
                     </div>
                 </div>
             </section>
-            <header id="header" class="jc__s-between dp__flex alg__item fixed-top">
-                <div class="container dp__flex alg__item jc__s-between container__header">
-                    <a href="/" class="">
-                        <img src="./img/logo.png" alt="Logo" class="header__logo">
+            <header id="header" class="justify-content-between d-flex text-center">
+                <div class="container d-flex text-center justify-content-between container__header">
+                    <a href="/" class="d-flex justify-content-center align-items-center">
+                        <img src="./assets/img/logo.png" alt="Logo" class="header__logo">
                     </a>
                     <div class="header__navbar">
                         <ul class="navbar__lists">
@@ -66,9 +67,6 @@
                             <li class="navbar__lists-item">
                                 <a href="#contact" class="navbar__lists-item-link">Contact</a>
                             </li>
-                           <a href="#" class="navbar__lists-item">
-                                 <i class="navbar__lists-item-icon ti-shift-right"></i>
-                           </a>
                         </ul>
                     </div>
                 </div>
@@ -83,45 +81,43 @@
                     <h2 class="hero__career">
                         I am a Sophomore
                     </h2>   
-                    <div class="hero__started dp__flex">
-                        <a href="#about">
-                            <button class="btn btn--hover btn__link">
-                                Get started
-                            </button>
-                        </a>
-                    </div>
+                    <a class="btn--base" href="#about" role="button">Get started</a>
                 </div>
             </section>
             <main id="main">
                 <section id="about">
                     <div class="container">
-                        <div class="section__title al-item">
-                            <h2 class="title__name name__border">About</h2>
-                            <h3 class="title__find">
-                                Find Out More 
-                                <span class="title__find-color">About Me</span>
-                            </h3>
-                            <p class="title__desc">Front End Fresher</p>
-                        </div>
-                        <div class="grid__row jc__s-between about-res col__rev-col dp__flex">
-                            <div class="grid__column-3 about-res__item wid--100 mg-bot-48">
-                                <div class="pd-30-around about__item about-res__item-child">
+                       <div class="row">
+                            <div class="col-12 col-lg-12 text-center">
+                                <div class="section__title">
+                                    <h2 class="title__name name__border">About</h2>
+                                    <h3 class="title__find">
+                                        Find Out More 
+                                        <span class="title__find-color">About Me</span>
+                                    </h3>
+                                    <p class="title__desc">Front End Fresher</p>
+                                </div>
+                            </div>
+                       </div>
+                        <div class="row justify-content-between d-flex">
+                            <div class="col-md-4 col-lg-4 mb-4">
+                                <div class="p-5 about__item">
                                     <h4 class="title">Overview</h4>
                                     <p class="decs">
                                         Skilled Front-end developer, data structures and algorithms with more 1 year.
                                     </p>
                                 </div>
                             </div>
-                            <div class="grid__column-3  about-res__item wid--100 mg-bot-48">
-                                <div class="pd-30-around about__item about-res__item-child">
+                            <div class="col-md-4 col-lg-4 mb-4 ">
+                                <div class="p-5 about__item">
                                     <h4 class="title">Proficiency</h4>
                                     <p class="decs">
                                         Creative and effective in high-pressure environments both independently and within a team.
                                     </p>  
                                 </div>
                             </div>
-                            <div class="grid__column-3  about-res__item wid--100 mg-bot-48">
-                                <div class="pd-30-around about__item about-res__item-child">
+                            <div class="col-md-4 col-lg-4 mb-4 ">
+                                <div class="p-5 about__item">
                                     <h4 class="title">Technology</h4>
                                     <p class="decs">
                                         Technological focus includes HTML and CSS.
@@ -133,27 +129,31 @@
                 </section>
                 <section id="portfolio" class="section__bg section">
                     <div class="container">
-                        <div class="section__title al-item">
-                            <h2 class="title__name name__border">ACADEMIC PORIFOLIO</h2>
-                            <h3 class="name-project font-size">
-                                <span class="name-project-color">Competitive</span>
-                                I've done at
-                                <span class="name-project-color name-project-color-res">HUTECH</span>
-                            </h3>
+                        <div class="row">
+                            <div class="col-12 col-lg-12 text-center">
+                                <div class="section__title">
+                                    <h2 class="title__name name__border">ACADEMIC PORIFOLIO</h2>
+                                    <h3 class="name-project font-size">
+                                        <span class="name-project-color">Competitive</span>
+                                        I've done at
+                                        <span class="name-project-color name-project-color-res">HUTECH</span>
+                                    </h3>
+                                </div>
+                            </div> 
                         </div>
-                        <div class="grid__row dp__flex col__rev-col">
-                            <div class="grid__column-6 wid--100 mg-bot--24 wid--100--title">
+                        <div class="row d-flex">
+                            <div class="col-lg-6 mb-4">
                                 <h5>Graph Theory</h5>
                                 <p>Personal Competitive</p>
                             </div>
                         </div>
-                        <div class="grid__row dp__flex jc__s-between" style="margin-bottom: 32px;">
-                            <div class="grid__column-10 wid--100--ipad wid--100">
-                                <img src="./img/it_competive.png" alt="Ảnh Project" class="img__competive">
+                        <div class="row d-flex justify-content-between" style="margin-bottom: 32px;">
+                            <div class="col-lg-10">
+                                <img src="./assets/img/it_competive.png" alt="Ảnh Project" class="img__competive">
                             </div>
                         </div>
-                        <div class="grid__row dp__flex col__rev-col">
-                            <div class="grid__column-3 grid__column-6 wid--100 pg--12">
+                        <div class="row d-flex">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="box">
                                     <span class="advanced">Completed</span>
                                     <h3 class="box__name">Design Web</h3>
@@ -163,7 +163,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="grid__column-3 grid__column-6 wid--100 pg--12">
+                            <div class="col-md-6 col-lg-4 mt-5">
                                 <div class="box">
                                     <span class="advanced">Completed</span>
                                     <h3 class="box__name">Data Structures & Algorithms</h3>
@@ -178,12 +178,16 @@
                 </section>
                 <section id="skill" class="section">
                     <div class="container">
-                        <div class="section__title al-item">
-                            <h2 class="title__name name__border">Personal skills</h2>
-                            <h3 class="name-project font-size"> Programing language</h3>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="section__title">
+                                    <h2 class="title__name name__border">Personal skills</h2>
+                                    <h3 class="name-project font-size"> Programing language</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="grid__row dp__flex mg__bot mg__bot--non col__rev-col skill-list-res">
-                            <div class="grid__column-6 wid--100 skill-list-item-res">
+                        <div class="row d-flex mb-lg-5">
+                            <div class="col-lg-6">
                                 <div class="process process-res ">
                                     <span class="process__skills">
                                         HTML
@@ -194,7 +198,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid__column-6 wid--100 skill-list-item-res">
+                            <div class="col-lg-6">
                                 <div class="process process-res">
                                     <span class="process__skills">
                                         CSS
@@ -206,8 +210,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid__row dp__flex">
-                            <div class="grid__column-6 mg__bot skill-list-item-res wid--100">
+                        <div class="row d-flex">
+                            <div class="col-lg-6 mb-4">
                                 <div class="process process-res">
                                     <span class="process__skills">
                                         C++
@@ -219,11 +223,11 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="section__title al-item">
+                    <div class="section__title text-center">
                         <h3 class="name-project font-size">Database and Others</h3>
                     </div>
-                    <div class="grid__row">
-                        <div class="grid__column-6 mg__bot mg__bot--non wid--100  skill-list-item-res">
+                    <div class="row">
+                        <div class="col-12 mb-4">
                             <div class="process process-res ">
                                 <span class="process__skills">
                                 SQL
@@ -237,14 +241,18 @@
                 </section>
                 <section id="education" class="section section__bg">
                     <div class="container ">
-                        <div class="section__title al-item">
-                            <h2 class="title__name name__border">Education</h2>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="section__title">
+                                    <h2 class="title__name name__border">Education</h2>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row dp__flex jc__center jc__center">
-                            <div class="grid__column-10 pg--non wid--100 education-res">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12">
                                 <div class="icon-box">
                                     <div class="icon">
-                                        <img src="./img/logo-hutech.jpg" alt="Logo" class="icon__img">
+                                        <img src="./assets/img/logo-hutech.jpg" alt="Logo" class="icon__img">
                                     </div>
                                     <h4 class="icon__name-school">Junior of Ho Chi Minh City University of Technology</h4>
                                     <p class="icon__time-styding">Studying in HCMC,expected to be completed in 12/2026 University of Technology - Ho Chi Minh City HCM</p>
@@ -255,54 +263,56 @@
                 </section>
                 <section id="contact" class="section section__bg">
                     <div class="container">
-                        <div class="section__title al-item">
-                            <h2 class="title__name name__border">Contact</h2>
-                            <h3 class="title__find">
-                                <span class="title__find-color">Contact Me</span>
-                            </h3>
-                            <p class="title__desc">Feel free to get in touch with me.</p>
-                        </div>
-                       <div class="grid__row dp__flex col__rev-col contact--width-res">
-                        <div class="grid__column-6 wid--100 mg-bot--24 contact-item--width-res">
-                            <div class="box-contact">
-                                <i class="box-contact__icon ti-location-pin"></i>
-                                <h3 class="box-contact__location">My Address</h3>
-                                <h4 class="box-contact__contact-desc">Tan Lap 1, Hiep Phu Ward, Thu Duc</h4>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="section__title">
+                                    <h2 class="title__name name__border">Contact</h2>
+                                    <h3 class="title__find">
+                                        <span class="title__find-color">Contact Me</span>
+                                    </h3>
+                                    <p class="title__desc">Feel free to get in touch with me.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="grid__column-6 dp__flex col__rev-col pg--non wid--100 contact-item--width-res">
-                            <div class="grid__column-6 wid--100 mg-bot--24 contact-item--width-res">
+                       <div class="row d-flex">
+                            <div class="col-lg-6 mb-4">
+                                <div class="box-contact">
+                                    <i class="box-contact__icon ti-location-pin"></i>
+                                    <h3 class="box-contact__location">My Address</h3>
+                                    <h4 class="box-contact__contact-desc">Tan Lap 1, Hiep Phu Ward, Thu Duc</h4>
+                                </div>
+                            </div> 
+                            <div class="col-md-6 col-lg-3 mb-4">
                                 <div class="box-contact ">
                                     <i class="box-contact__icon ti-email"></i>
-                                    <h3 class="box-contact__location">Email me</h3>
+                                    <h3 class="box-contact__location">Email</h3>
                                     <h4 class="box-contact__contact-desc">hokhai84@gmail.com</h4>
                                 </div>
                             </div>
-                            <div class="grid__column-6 wid--100 mg-bot--24 contact-item--width-res">
+                            <div class="col-md-6 col-lg-3 mb-4">
                                 <div class="box-contact">
-                                    <i class="box-contact__icon ti-email"></i>
+                                    <i class="box-contact__icon ti-mobile"></i>
                                     <h3 class="box-contact__location">Phone</h3>
                                     <h4 class="box-contact__contact-desc">+84 765616646</h4>
                                 </div>
                             </div>
-                       </div>
                     </div>
                 </section>
             </main>
             <footer id="footer">
-                <div class="container dp__flex jc__s-between al-item">
+                <div class="container d-flex justify-content-between align-items-center">
                     <div class="copyright">
-                        © Copyright 2024, by 
-                        <span class="name-project-color">BizLand</span>
+                        © Copyright 2024, by
+                        <span class="title__find-color">Bizard</span>
                     </div>
-                    <div class="socials dp__flex jc__center">
-                        <a href="https://www.instagram.com/duckhaiii_84" class="social-link btn btn--hover">
+                    <div class="socials d-flex align-items-center justify-content-center">
+                        <a href="https://www.instagram.com/duckhaiii_84" class="social-link btn--base">
                             <i class="social-link__icon ti-instagram"></i>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100010822745965" class="social-link btn btn--hover">
+                        <a href="https://www.facebook.com/profile.php?id=100010822745965" class="social-link btn--base">
                             <i class="social-link__icon ti-facebook"></i>
                         </a>
-                        <a href="" class="social-link btn btn--hover">
+                        <a href="/" class="social-link btn--base">
                             <i class="social-link__icon ti-twitter-alt"></i>
                         </a>
                     </div>
