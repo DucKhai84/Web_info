@@ -110,11 +110,12 @@
     position: relative;
     padding: 60px 0;
     height: 75vh;
-    background-image: url("/assets/img/hero-bg.gif.jpg");
+    background-image: url('/assets/img/hero-bg.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
 }
+
 #hero::before{
     background: hsla(0, 0%, 100%, .6);
     content:"";
